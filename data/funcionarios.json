@@ -4,5 +4,23 @@
         "nome": "joao teste",
         "cargo": "gestor de teste",
         "salario": 500
+    },
+    {
+        "id": 2,
+        "nome": "joao teste",
+        "cargo": "gestor de teste",
+        "salario": 500
+    },
+    {
+        "id": 3,
+        "nome": "joao teste",
+        "cargo": "gestor de teste",
+        "salario": 500
+    },
+    {
+        "id": 4,
+        "nome": "teste de outro func",
+        "cargo": "super chefinho",
+        "salario": 10000000000
     }
 ]

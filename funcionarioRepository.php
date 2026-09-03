@@ -41,4 +41,9 @@ class FuncionarioRepository
 
         $this->salvarTodos($dados);
     }
+
+    public function listar(): array
+    {
+        return $this->lerTodos();
+    }
 }
