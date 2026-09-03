@@ -1,17 +1,5 @@
 [
     {
-        "id": 1,
-        "nome": "joao teste",
-        "cargo": "gestor de teste",
-        "salario": 500
-    },
-    {
-        "id": 2,
-        "nome": "joao teste",
-        "cargo": "gestor de teste",
-        "salario": 500
-    },
-    {
         "id": 3,
         "nome": "joao teste",
         "cargo": "gestor de teste",
@@ -22,5 +10,11 @@
         "nome": "teste de outro func",
         "cargo": "super chefinho",
         "salario": 10000000000
+    },
+    {
+        "id": 5,
+        "nome": "Jo\u00e3o Teste Ti",
+        "cargo": "Diretor",
+        "salario": 2313131231
     }
 ]

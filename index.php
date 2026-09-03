@@ -13,7 +13,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $acao === 'cadastrar') {
     $repositorio->cadastrar($nome, $cargo, $salario);
 }
 
+if ($acao === 'remover' && isset($_GET['id'])) {
+    $repositorio->remover((int) $_GET['id']);
+    header('Location: ?acao=listar');
+    exit;
+}
+
 $funcionarios = $repositorio->listar();
+
+
 
 ?>
 <!DOCTYPE html>

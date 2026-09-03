@@ -46,4 +46,16 @@ class FuncionarioRepository
     {
         return $this->lerTodos();
     }
+
+    public function remover(int $id): void
+{
+    $dados = $this->lerTodos();
+
+    $dados = array_filter($dados, function ($f) use ($id) {
+        return $f['id'] !== $id;
+    });
+
+    $dados = array_values($dados);
+    $this->salvarTodos($dados);
+}
 }
